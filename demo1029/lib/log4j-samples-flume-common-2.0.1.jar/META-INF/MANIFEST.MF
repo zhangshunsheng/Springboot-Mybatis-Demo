@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: msicker
+Build-Jdk: 1.6.0_65
+Implementation-Title: Apache Log4j Samples: Flume - Common
+Implementation-Vendor: Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Implementation-Version: 2.0.1
+Specification-Title: Apache Log4j Samples: Flume - Common
+Specification-Vendor: Apache Software Foundation
+Specification-Version: 2.0.1
+X-Compile-Source-JDK: 1.6
+X-Compile-Target-JDK: 1.6
+Bnd-LastModified: 1406682022806
+Bundle-Description: Apache Log4j 2
+Bundle-DocURL: http://www.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Log4j Samples: Flume - Common
+Bundle-SymbolicName: org.apache.logging.log4j.samples.log4j-samples-fl
+ ume-common
+Bundle-Vendor: Apache Software Foundation
+Bundle-Version: 2.0.1
+Export-Package: org.apache.logging.log4j.samples.app;uses:="javax.serv
+ let.http,org.apache.logging.log4j.samples.dto,org.springframework.ste
+ reotype,org.springframework.web.bind.annotation,org.springframework.w
+ eb.servlet";version="2.0.1",org.apache.logging.log4j.samples.dto;vers
+ ion="2.0.1",org.apache.logging.log4j.samples.events;uses:="org.apache
+ .logging.log4j.samples.dto";version="2.0.1",org.apache.logging.log4j.
+ samples.util;version="2.0.1"
+Import-Package: javax.servlet.http,org.apache.logging.log4j;version="[
+ 2.0,3)",org.apache.logging.log4j.core.util;version="[2.0,3)",org.apac
+ he.logging.log4j.message;version="[2.0,3)",org.springframework.stereo
+ type,org.springframework.web.bind.annotation,org.springframework.web.
+ servlet
+Log4jReleaseCount: fifteenth
+Log4jReleaseVersion: 2.0.1
+Tool: Bnd-2.1.0.20130426-122213
+
